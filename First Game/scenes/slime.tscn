@@ -46,6 +46,13 @@ size = Vector2(10, 14)
 [node name="Slime" type="Node2D"]
 script = ExtResource("1_fxbww")
 
+[node name="AnimatedSprite2D2" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -12)
+sprite_frames = SubResource("SpriteFrames_a8uf2")
+autoplay = "default"
+frame = 2
+frame_progress = 0.722655
+
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 position = Vector2(0, -12)
 sprite_frames = SubResource("SpriteFrames_a8uf2")
